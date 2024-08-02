@@ -25,6 +25,24 @@ n = 10
 print(f"The {n}th Fibonacci number is: {calculate_fibonacci(n)}")
 ```
 
+### Generator Python Implementation
+```python
+def fibonacci_generator(max_value):
+    """A generator function for Fibonacci numbers up to max_value."""
+    a, b = 0, 1
+    while a <= max_value:
+        yield a
+        a, b = b, a + b
+
+# Example usage:
+max_value = 100  # Define the maximum value for the Fibonacci sequence
+fib_sequence = fibonacci_generator(max_value)
+
+# Print the Fibonacci sequence up to the max_value
+for number in fib_sequence:
+    print(number)
+```
+
 ### JavaScript Implementation
 ```javascript
 function calculateFibonacci(n) {
