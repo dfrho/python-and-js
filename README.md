@@ -1,4 +1,4 @@
-For anyone experienced in both JavaScript and Python, here's a list of algorithms providing some mental dexterity on the differeinces by summarizing the learning with both implementations, along with The Task explanations:
+For anyone experienced in both JavaScript and Python, here's a list of algorithms providing some mental dexterity on the differences by summarizing the learning with both implementations, along with The Task explanations:
 
 ```markdown
 # Learning Summary: Python and JavaScript Implementations
