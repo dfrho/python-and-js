@@ -1,6 +1,5 @@
 For anyone experienced in both JavaScript and Python, here's a list of algorithms providing some mental dexterity on the differences by summarizing the learning with both implementations, along with The Task explanations:
 
-```markdown
 # Learning Summary: Python and JavaScript Implementations
 
 This document summarizes several key programming concepts in Python and JavaScript, including Fibonacci numbers, list comprehension, dictionary manipulation, error handling, prime number finding, string manipulation, file processing, and object-oriented programming.
@@ -23,7 +22,7 @@ def calculate_fibonacci(n):
 # Example usage
 n = 10
 print(f"The {n}th Fibonacci number is: {calculate_fibonacci(n)}")
-```
+
 
 ### Generator Python Implementation
 #### Benefits of Using a Generator
