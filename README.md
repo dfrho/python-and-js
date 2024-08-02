@@ -26,6 +26,12 @@ print(f"The {n}th Fibonacci number is: {calculate_fibonacci(n)}")
 ```
 
 ### Generator Python Implementation
+#### Benefits of Using a Generator
+
+	•Memory Efficiency: Generators compute the values on-the-fly and do not store the entire sequence in memory.
+	•Lazy Evaluation: Generators produce items only when requested, making them suitable for handling large datasets or infinite sequences.
+	•Simple and Clean Code: Generators provide a simple syntax for iteration, making code easy to read and maintain.
+
 ```python
 def fibonacci_generator(max_value):
     """A generator function for Fibonacci numbers up to max_value."""
